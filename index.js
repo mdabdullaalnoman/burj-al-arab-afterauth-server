@@ -72,7 +72,7 @@ client.connect(err => {
 });
 
 app.get('/', (req, res) => {
-  res.send('connected')
+  res.send('connected burjAlArab')
 })
 
 app.listen( port,()=>console.log(`connected database server${port}`));
